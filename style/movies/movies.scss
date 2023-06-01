@@ -1,0 +1,45 @@
+.movies {
+  padding-bottom: 70px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  border-top: 2px solid rgba(8, 7, 7, 1);
+  color: var(--white);
+}
+
+.movies-foundresult {
+  padding: 24px 0;
+  font-weight: 400;
+}
+.movies-cards {
+}
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.movies-item {
+  width: 322px;
+}
+.movies-item_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  opacity: 0.7;
+}
+.movies-item_img {
+  padding-bottom: 14px;
+}
+.movies-item_title {
+  display: inline-block;
+}
+.movies-item_year {
+  padding: 4px 8px;
+  border: 2px solid rgba(151, 151, 151, 1);
+  border-radius: 4px;
+}
+.movies-item_description {
+  opacity: 0.5;
+}
