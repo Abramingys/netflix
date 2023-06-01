@@ -5,7 +5,7 @@
 .header-logo {
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px 0;
+  padding-top: 20px;
 }
 .header-logo a {
   font-size: 20px;
@@ -40,7 +40,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  padding: 0 120px;
+  padding: 0 60px;
 }
 .header-search_text {
   width: 713px;

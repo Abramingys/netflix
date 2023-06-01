@@ -1,0 +1,42 @@
+.films {
+  margin-top: 10px;
+  background-color: var(--black);
+}
+
+.genres {
+  display: flex;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border-bottom: 2px solid var(--dark-grey);
+  color: var(--white);
+}
+
+.genres-list {
+  display: flex;
+  gap: 30px;
+}
+.genres-list_item {
+  padding: 20px 0;
+  cursor: pointer;
+}
+.genres-list_item:hover {
+  border-bottom: 4px solid var(--apricot);
+}
+.genres-sort {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  //   font-size: 16px;
+
+  letter-spacing: 0.8888887763023376px;
+}
+.genres-sort_title {
+  font-weight: 400;
+  opacity: 0.6;
+}
+.genres-sort_date {
+}
