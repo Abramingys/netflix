@@ -23,6 +23,7 @@
     &_item {
       padding: 20px 0;
       cursor: pointer;
+      transition: all 0.5s;
 
       &:hover {
         border-bottom: 4px solid var(--apricot);

@@ -23,6 +23,7 @@
 .genres-list_item {
   padding: 20px 0;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .genres-list_item:hover {
   border-bottom: 4px solid var(--apricot);
@@ -36,4 +37,4 @@
 .genres-sort_title {
   font-weight: 400;
   opacity: 0.6;
-}/*# sourceMappingURL=films.css.map */
+}/*# sourceMappingURL=maincontent.css.map */
