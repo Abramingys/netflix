@@ -1,9 +1,10 @@
 "use strict"
 
 let ul = document.querySelector('.movies-list');
+
 function card({ title, release_date, genres }) {
 
-    return `
+  return `
             <li class="movies-item">
                   <img
                     class="movies-item_poster"
@@ -19,14 +20,14 @@ function card({ title, release_date, genres }) {
 };
 
 fetch('http://localhost:4000/movies?limit=20')
-    .then(response => response.json())
-    .then(films => films.data)
-    .then(data => ul.insertAdjacentHTML("afterbegin", data.map(item => card(item)).join('')))
+  .then(response => response.json())
+  .then(films => films.data)
+  .then(data => ul.insertAdjacentHTML("afterbegin", data.map(item => card(item)).join('')))
 
 
-fetch('http://localhost:4000/movies')
-    .then(response => response.json())
-    .then(films => console.log(films))
+// fetch('http://localhost:4000/movies')
+//   .then(response => response.json())
+//   .then(films => console.log(films))
 
 
 
